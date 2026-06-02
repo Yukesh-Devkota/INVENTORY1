@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory Management</title>
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo"><i class="ti ti-package"></i> INVENTORY MANAGEMENT</div>
+        <div class="sidebar-subtitle">Inventory Management</div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="sidebar-footer">
+        <div style="font-size:11px;color:var(--muted);padding:12px 16px">© 2026 inventory management </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="topbar">
+        <div class="topbar-title" id="page-title">Dashboard</div>
+        <div class="topbar-actions" id="topbar-actions"></div>
+      </div>
+      <div class="content" id="content"></div>
+    </div>
+    <div id="modal-root"></div>
+    <div id="toast-root"></div>
+  </div>
+  <script src="src/data/initialData.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
